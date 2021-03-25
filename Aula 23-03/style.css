@@ -1,0 +1,39 @@
+body {
+
+    background-color: whitesmoke
+
+}
+
+.foto img{
+   
+    width: 300px;
+}
+
+.entradaTexto {
+
+    width: 200px;
+    margin: 6px 6px 6px 6px;
+}
+
+.entradaEscolaridade {
+    margin: px 6px 6px 6px;
+}
+
+.entradaNascimento {
+    margin: 6px 6px 6px 6px;
+}
+
+.entradaEndereco {
+    margin: 6px 6px 6px 6px;
+}
+
+.entradaContatos {
+    margin: 6px 6px 6px 6px;
+}
+
+.botaoP {
+    background-color: #0095f6;
+    color: #ffff;
+    padding: 10px;
+    border-radius: 10px;
+}

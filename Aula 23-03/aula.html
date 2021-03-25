@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="aula23.js"></script>
+</head>
+<body>
+   
+    <center>
+    <div class="foto">
+            <img src="cadastro.png" alt="foto">
+        </a>
+    </div>
+
+    <div>
+        <h1>Formulário para Cadastro</h1>
+        <label>Nome Completo:</label>
+        <input id="nomeCliente" class="entradaTexto" type="text" maxlength="60" placeholder="Informe seu Nome">
+     <br>
+        
+     <label class="entradaEscolaridade">Escolaridade:</label>
+        <select>
+        <option value="">Selecione</option>
+        <option value="1">Ensino Fundamental Incompleto</option>
+        <option value="2">Ensino Fundamental Completo</option>
+        <option value="3">Ensino Medio Incompleto</option>
+        <option value="4">Ensino Medio Cursando</option>
+        <option value="5">Ensino Medio Completo</option>
+        <option value="6">Ensino Superior Incompleto</option>
+        <option value="7">Ensino Superior Cursando</option>
+        <option value="8">Ensino Superior Completo</option>
+        </select>
+        <br>
+         
+         <label>Data de Nascimento:</label>
+        <input id="anoNascimento" class="entradaNascimento" type="text" maxlength="10" placeholder="00/00/0000">
+         <br>
+
+         <label>Endereço Completo:</label>
+        <input id="endereco" class="entradaEndereco" type="text" maxlength="40" placeholder="Bairro Rua e Numero">
+         <br>
+
+         <label>Contatos:</label>
+        <input id="contatos" class="entradaContatos" type="text" maxlength="30" placeholder="E-mail ou Número de Telefone">
+         <br>
+        
+         <label>Deseja Assinar o E-mail Marketing?</label>
+        <input type="checkbox" checked="checked" value="SIM"/>
+        <br><br>
+        
+        <input class="botaoP" type="button" value="Submeter" onclick="limparForm()"/>
+        
+    </div>
+</center>
+
+</body>
+</html>
